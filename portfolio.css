@@ -85,6 +85,6 @@ p {
 	font-family: "Quicksand-Regular";
 }
 
-#about, #career, #skills, #achievements, #testimonials, #contact {
+#about, #career, #skills, #achievements, #contact {
 	display: none;
 }
