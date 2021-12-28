@@ -35,8 +35,21 @@ p {
 	margin-top: 10%;
 }
 
+.rowachievements {
+	margin-top: 20%;
+}
+
 .box {
 	height: 220px;
+	margin-top: 10%;
+	border: 1px solid lightgrey;
+	border-radius: 25px;
+	border-bottom: 30px solid lightslategrey;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.boxa {
+	height: 260px;
 	margin-top: 10%;
 	border: 1px solid lightgrey;
 	border-radius: 25px;
@@ -135,6 +148,6 @@ p {
 	font-family: "Quicksand-Regular";
 }
 
-#career, #skills, #rowskills, #achievements {
+#career, #skills, #achievements {
 	display: none;
 }
