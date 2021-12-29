@@ -171,7 +171,7 @@ p {
   content:'';
   width:4px;
   height: 100%;
-background: rgb(138,145,150);
+background: lightslategrey;
 background: -moz-linear-gradient(left, rgba(138,145,150,1) 0%, rgba(122,130,136,1) 60%, rgba(98,105,109,1) 100%);
 background: -webkit-linear-gradient(left, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(98,105,109,1) 100%);
 background: linear-gradient(to right, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(98,105,109,1) 100%);
@@ -184,7 +184,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', end
 .timeline-month{
   position:relative;
   padding:4px 15px 4px 35px;
-  background-color:#444950;
+  background-color:lightslategrey;
   display:inline-block;
   width:auto;
   border-radius:40px;
@@ -233,7 +233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', end
 .timeline-date{
   margin-bottom:15px;
   padding:2px 15px;
-  background:linear-gradient(#74cae3, #5bc0de 60%, #4ab9db);
+  background:lightslategrey;
   position:relative;
   display:inline-block;
   border-radius:20px;
@@ -246,7 +246,7 @@ text-shadow:1px 1px 1px rgba(0,0,0,0.3);
   position:absolute;
   width:30px;
   height:1px;
-  background-color:#444950;
+  background-color:lightslategrey;
   top:12px;
   left:20px;
 }
@@ -256,7 +256,7 @@ text-shadow:1px 1px 1px rgba(0,0,0,0.3);
   position:absolute;
   width:10px;
   height:10px;
-  background:linear-gradient(to bottom, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(112,120,125,1) 100%);
+  background:lightslategrey;
   top:7px;
   left:11px;
   border:1px solid #17191B;
@@ -270,11 +270,10 @@ text-shadow:1px 1px 1px rgba(0,0,0,0.3);
 .timeline-box{
   position:relative;
   
- background-color:#444950;
   border-radius:15px;
   border-top-left-radius:0px;
   border-bottom-right-radius:0px;
-  border:1px solid #17191B;
+  border:1px solid rgb(7, 120, 168);
   transition:all 0.3s ease;
   overflow:hidden;
 }
@@ -296,7 +295,6 @@ text-shadow:1px 1px 1px rgba(0,0,0,0.3);
 
 .box-content{
   padding:5px 15px;
-  background-color:#17191B;
 }
 
 .box-content strong{
