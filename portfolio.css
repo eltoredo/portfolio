@@ -61,6 +61,9 @@ p {
     font-size: 20px;
     font-weight: 600;
     margin: 0 0 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
 }
 
 .boxp {

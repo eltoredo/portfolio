@@ -32,7 +32,7 @@
                         <span id="nav_job" class="mb-4">Développeur full-stack</span>
 
                         <li class="nav-item">
-                            <a class="nav-link nav_link" href="#home">À propos de moi</a>
+                            <a class="nav-link nav_link" href="#home" id="home-link">À propos de moi</a>
                         </li>
 
                         <li class="nav-item">
@@ -710,7 +710,10 @@
         let divs = document.getElementById("div_content").querySelectorAll(".bigdiv");
         let links = document.getElementsByClassName("nav-link");
 
+        $('#home-link').css({'border-bottom' : '2px solid rgb(7, 120, 168)'});
+
         $(".nav_link").click(function() {
+            $('#home-link').css({'border-bottom' : ''});
             $(".nav_link").removeClass('active');
             $(this).addClass('active');
 
